@@ -29,7 +29,7 @@
     mentors2,
   };
 
-  /// LEarn Reast operator
+  /// Learn Reast operator
 
   const greetTeachers = (...teachers: string[]) => {
     // console.log(`Hi ${teacher1} ${teacher2} ${teacher3}`);
@@ -37,4 +37,16 @@
   };
 
   greetTeachers("Rumi", "Rakibul", "Rafi", "orebaba");
+
+
+  const forntendDeveloper: string[] = ['HTML', 'CSS', 'JavaScript', 'React'];
+
+  const backendDeveloper : string [] = ['Node js', 'express js', 'Mongo bd'];
+
+  const fullStackDeveloper : string[] = [...forntendDeveloper, ...backendDeveloper]
+
+  console.log(fullStackDeveloper)
+
+
+
 }

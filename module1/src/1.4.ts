@@ -29,7 +29,7 @@ let friendsName: string[] = ["Robin", "Muzee"];
 
 let validRoll :number[]= [12, 25];
 
-// Tuple (define type of valy oder in array)
+// Tuple (define type of value oder in array)
 
 let coordinator: [number, number] = [12, 5]
 
