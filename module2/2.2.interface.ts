@@ -34,7 +34,7 @@
 
   const rollNumber: Roll2 = [1, 2, 3, 4];
 
-  
+
 
   // Function with interface alos shoe the alias type
 
@@ -47,4 +47,11 @@
   const add: Add2 = (num1, num2) => num1 + num2;
 
   //
+
+
+
+//   Now the Question when wchin one is we are Using?
+//   => Using type alias for Array &  in object we using interface but both are preferable
+
+// // 
 }
