@@ -11,8 +11,9 @@
   const getTodo = async (): Promise<Todo> => {
     const res = await fetch("https://jsonplaceholder.typicode.com/todos/1");
     const data = await res.json();
-    return data;
     console.log(data)
+    return data;
+    
   };
 
   getTodo()
