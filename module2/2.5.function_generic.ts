@@ -39,36 +39,33 @@
 
   const res1 = createArrayWithTouple<string, number>("Banagladesh", 222);
 
-  const resGeneric = createArrayWithTouple<string, {name: string}>("Bangladesh", {name: 'Tanvir'});
+  const resGeneric = createArrayWithTouple<string, { name: string }>(
+    "Bangladesh",
+    { name: "Tanvir" }
+  );
 
+  //
 
-
-
-//   
-
- const courseToStudent = <T> (student: T) => {
-    const course = 'Next Level web development';
+  const courseToStudent = <T>(student: T) => {
+    const course = "Next Level web development";
 
     return {
-        ...student,
-        course
-    }
- }
+      ...student,
+      course,
+    };
+  };
 
- const student1 =  ({
-    name: 'Tanvir',
-    email: 'a @gmail.com',
-    devType: 'Next Level Developer',
- })
+  const student1 = courseToStudent({
+    name: "Tanvir",
+    email: "a @gmail.com",
+    devType: "Next Level Developer",
+  });
 
+  const student2 = courseToStudent({
+    name: "Hossen",
+    email: "a @gmail.com",
+    hasWatch: "Apple watch",
+  });
 
- const student2 =  ({
-    name: 'Hossen',
-    email: 'a @gmail.com',
-    hasWatch: 'Apple watch',
- })
-
-
-  
   //
 }
