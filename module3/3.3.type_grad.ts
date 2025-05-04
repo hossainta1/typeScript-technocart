@@ -17,7 +17,7 @@
   console.log(result1);
   //
 
-  /// in gard
+  /// ----------------in gard-------------------------
   type NormalUser = {
     name: string;
   };

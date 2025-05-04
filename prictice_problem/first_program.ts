@@ -10,7 +10,7 @@
   }
 
 
-  console.log(show)
+  console.log(show.message)
 
 
 
