@@ -24,7 +24,7 @@
     //  create instance 
 
 
-    const getSleepingHour = (param : Person){
+    const getSleepingHour = (param : Person) => {
       param.getSleep()
     }
 
