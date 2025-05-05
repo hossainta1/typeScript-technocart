@@ -7,7 +7,9 @@
     address: string;
 
     constructor(name: string, age: string, address: string) {
-      (this.name = name), (this.age = age), (this.address = address);
+      this.name = name, 
+      this.age = age, 
+      this.address = address;
     }
 
     getSleep(sleepHoure: number) {
